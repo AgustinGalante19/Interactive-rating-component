@@ -55,6 +55,16 @@
     cursor: pointer;
     text-transform: capitalize;
     color: var(--white);
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    transition: all .2s;
+}
+
+
+.card button:hover {
+    background-color: var(--white);
+    color: var(--orange);
 }
 
 .card h2 {
